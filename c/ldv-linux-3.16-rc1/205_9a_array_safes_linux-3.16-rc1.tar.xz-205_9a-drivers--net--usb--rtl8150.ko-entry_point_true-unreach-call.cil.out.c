@@ -7237,6 +7237,7 @@ void ldv_usb_driver_1(void)
 
   {
   tmp = ldv_zalloc(1560UL);
+  __VERIFIER_assume((unsigned long )tmp != (unsigned long )((void *)0));
   rtl8150_driver_group1 = (struct usb_interface *)tmp;
   return;
 }
